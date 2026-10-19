@@ -1,7 +1,7 @@
 const https = require('https');
 
 module.exports = (req, res) => {
-  const backendHost = 'south2.ayanakojivps.shop';
+  const backendHost = 'superbot.2bd.net';
   const backendPath = req.url;
 
   const options = {
