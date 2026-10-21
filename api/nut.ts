@@ -1,7 +1,7 @@
 const https = require('https');
 
 module.exports = (req, res) => {
-  const backendHost = 'superbot.2bd.net';
+  const backendHost = '104.207.90.204';
   const backendPath = req.url;
 
   const options = {
